@@ -15,8 +15,8 @@ export default function resume() {
         </h3>
         <ul className="list-disc list-inside">
           <li>
-            Guided 15 Masters students in lab and graded their assignment for
-            the course "Java Tools and Techniques for Big Data"
+            Mentored 15 Masters students in lab and graded their assignment for
+            the course &quot;Java Tools and Techniques for Big Data&quot;
           </li>
         </ul>
         <h3 className="pt-3">
@@ -48,6 +48,7 @@ export default function resume() {
           </li>
         </ul>
 
+        
         {/* PROJECTS */}
         <h2 className="text-2xl font-bold pt-5">PROJECTS</h2>
         <ul className="list-disc list-inside">
@@ -67,6 +68,14 @@ export default function resume() {
             University of Galway: M.Sc. in Software Design and Development
           </li>
         </ul>
+
+        {/* SKILLS */}
+        <h2 className = "text-2xl font-bold pt-5">SKILLS</h2>
+        <ul className="no-disc list-inside">
+          <li><a className = "font-bold">Languages: </a>C++, Java, Python, HTML, CSS, JavaScript</li>
+          <li><a className="font-bold">Frameworks: </a>React, NodeJS, MongoDB, PyGame, TensorFlow, Numpy, Selenium, PyTesseract, OpenCV, NextJS, mySQL, Apache Tomcat </li>
+        </ul>
+
       </div>
     </main>
   );
