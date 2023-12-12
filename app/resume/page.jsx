@@ -63,7 +63,7 @@ export default function resume() {
           </div>
           <div className = "flex justify-between">
             <li>Physics Sandbox</li>
-            <Link className = "text-red-500"href="" rel="noopener noreferrer" target="_blank">Not available on GitHub yet</Link>
+            <a className = "text-red-500">Not available on GitHub yet</a>
           </div>
             
         </ul>
