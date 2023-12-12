@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function resume() {
   return (
@@ -52,12 +53,19 @@ export default function resume() {
         {/* PROJECTS */}
         <h2 className="text-2xl font-bold pt-5">PROJECTS</h2>
         <ul className="list-disc list-inside">
-          <li>2D Maze Game: C++</li>
-          <li>2D Snooker Game: Java</li>
-          <li>2D Space Shooter: Java</li>
-          <li>KMP String Matching Algorithm: Java</li>
-          <li>P2P Chat Application: Python</li>
-          <li>Age Prediction Mobile App: Flutter, Tensorflow and OpenCV</li>
+          <div className="flex justify-between">
+            <li>Too Much Traffic Game</li>
+            <Link className = "text-indigo-500"href="https://github.com/hasanfarhan33/tooMuchTrafficPyGame" rel="noopener noreferrer" target="_blank">Check on GitHub</Link>
+          </div>
+          <div className = "flex justify-between">
+            <li>Student Assessment Portal Website</li>
+            <Link className = "text-indigo-500"href="https://github.com/hasanfarhan33/Assignment_3" rel="noopener noreferrer" target="_blank">Check on GitHub</Link>
+          </div>
+          <div className = "flex justify-between">
+            <li>Physics Sandbox</li>
+            <Link className = "text-red-500"href="" rel="noopener noreferrer" target="_blank">Not available on GitHub yet</Link>
+          </div>
+            
         </ul>
 
         {/* EDUCATION */}

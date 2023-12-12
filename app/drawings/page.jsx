@@ -34,12 +34,9 @@ export default function drawingsPage() {
         <div className="relative">
           <Image src={"/9.png"} alt="" height={3508 * 0.15} width={2480 * 0.15}></Image>
         </div>
-
-        
-
       </div>
 
-      <p className = "text-2xl font-semibold py-10">Check out my <Link className="text-indigo-500" href="https://www.instagram.com/farhanart33/" rel="noopener noreferrer" target="_blank">Instagram</Link> if you want to see more drawings.</p>
+      <p className = "text-2xl font-semibold py-10">Feel free to check out my <Link className="text-indigo-500" href="https://www.instagram.com/farhanart33/" rel="noopener noreferrer" target="_blank">Instagram</Link> if you want to see more drawings.</p>
 
     </div>
   );
